@@ -28,7 +28,7 @@ A modern, responsive portfolio website for Ibrahim Ali Muqbil Al-Harish, showcas
 
 ## 🚀 Live Demo
 
-Deployed on Vercel: [[https://vercel.com/ibrahim-al-hershs-projects/ibrahim-alharish-portfolio-dl1s]](https://ibrahim-alharish.vercel.app)
+Deployed on Vercel: [[view my website]](https://vercel.com/ibrahim-al-hershs-projects/ibrahim-alharish-portfolio-dl1s)
 
 ## 📧 Contact
 
