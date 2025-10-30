@@ -460,6 +460,7 @@ section {
 
 .certificates-grid {
     display: grid;
+    
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 2rem;
 }
@@ -837,4 +838,40 @@ footer {
         width: 100%;
         max-width: 250px;
     }
+}
+/* Language Direction Support */
+[dir="rtl"] {
+    text-align: right;
+}
+
+[dir="ltr"] {
+    text-align: left;
+}
+
+/* Smooth transition for language switch */
+body {
+    transition: all 0.3s ease;
+}
+
+/* RTL Specific Styles */
+[dir="rtl"] .hero-buttons {
+    justify-content: flex-start;
+}
+
+[dir="ltr"] .hero-buttons {
+    justify-content: flex-start;
+}
+
+/* LTR Specific Adjustments */
+[dir="ltr"] .personal-info .info-item {
+    flex-direction: row;
+}
+
+[dir="ltr"] .personal-info .info-item strong {
+    min-width: 120px;
+    text-align: left;
+}
+.border-radius{
+    border-radius: 30% !important;
+    /* padding: 10% !important; */
 }
