@@ -1,359 +1,760 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>إبراهيم الهرش - مدير موارد</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>إبراهيم الهرش - مندوب مبيعات</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!-- Header & Navigation -->
     <header>
-        <nav class="navbar">
-            <div class="nav-container">
-                <div class="logo">
-                    <h2>إبراهيم الهرش</h2>
-                    <span>مدير موارد</span>
-                </div>
-                <ul class="nav-menu">
-                    <li><a href="#home">الرئيسية</a></li>
-                    <li><a href="#about">عنّي</a></li>
-                    <li><a href="#experience">الخبرة</a></li>
-                    <li><a href="#certificates">الشهادات</a></li>
-                    <li><a href="#skills">المهارات</a></li>
-                    <li><a href="#contact">تواصل معي</a></li>
-                </ul>
-                <div class="language-switcher">
-                    <button id="langToggle">EN</button>
-                </div>
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
-        </nav>
+      <nav class="navbar">
+        <div class="nav-container">
+          <div class="logo navbar-brand p-4">
+            <h2 data-ar="إبراهيم الهرش" data-en="Ibrahim Al-Harish">
+              إبراهيم الهرش
+            </h2>
+            <span
+              data-ar="مندوب مبيعات محترف"
+              data-en="Professional Sales Representative"
+              >مندوب مبيعات محترف</span
+            >
+          </div>
+          <ul class="nav-menu">
+            <li>
+              <a href="#home" data-ar="الرئيسية" data-en="Home">الرئيسية</a>
+            </li>
+            <li><a href="#about" data-ar="عنّي" data-en="About">عنّي</a></li>
+            <!-- <li><a href="#commercial" data-ar="الخبرات التجارية" data-en="Commercial Experience">الخبرات التجارية</a></li> -->
+            <li>
+              <a
+                href="#experience"
+                data-ar="الخبرات العملية"
+                data-en="Work Experience"
+                >الخبرات العملية</a
+              >
+            </li>
+            <li>
+              <a href="#certificates" data-ar="الشهادات" data-en="Certificates"
+                >الشهادات</a
+              >
+            </li>
+            <li>
+              <a href="#skills" data-ar="المهارات" data-en="Skills">المهارات</a>
+            </li>
+            <li>
+              <a href="#contact" data-ar="تواصل معي" data-en="Contact"
+                >تواصل معي</a
+              >
+            </li>
+          </ul>
+          <div class="language-switcher">
+            <button id="langToggle" data-ar="EN" data-en="AR">EN</button>
+          </div>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="hero-container">
-            <div class="hero-content">
-                <h1 class="hero-title">إبراهيم علي مقبل الهرش</h1>
-                <h2 class="hero-subtitle">مدير موارد ومدرب معتمد</h2>
-                <p class="hero-description">
-                    مدرب ومدرس مخضرم بخبرة واسعة في تطوير الأفراد وإدارة الموارد البشرية. 
-                    أسعى لتطبيق خبراتي في بيئة إدارية لتحقيق أهداف المؤسسة وتنمية رأس المال البشري.
-                </p>
-                <div class="hero-buttons">
-                    <a href="#contact" class="btn btn-primary">تواصل معي</a>
-                    <a href="#certificates" class="btn btn-secondary">شهاداتي</a>
-                    <a href="assets/SKMBT_C36425083013370.pdf" class="btn btn-secondary" download>تحميل السيرة الذاتية</a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <div class="profile-photo">
-                    <img src="assets/image.png" alt="إبراهيم الهرش - مدير موارد">
-                </div>
-            </div>
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1
+            class="hero-title"
+            data-ar="إبراهيم علي مقبل الهرش"
+            data-en="Ibrahim Ali Muqbil Al-Harish"
+          >
+            إبراهيم علي مقبل الهرش
+          </h1>
+          <h2
+            class="hero-subtitle"
+            data-ar="مندوب مبيعات وتاجر محترف"
+            data-en="Professional Sales Representative & Trader"
+          >
+            مندوب مبيعات وتاجر محترف
+          </h2>
+          <p
+            class="hero-description"
+            data-ar="تاجر ومندوب مبيعات محترف يتمتع بخبرة عملية واسعة في إدارة المحلات التجارية والتجارة العامة. أسعى لتطبيق خبراتي في مجال المبيعات لتحقيق الأهداف وبناء شراكات تجارية ناجحة."
+            data-en="Professional trader and sales representative with extensive practical experience in shop management and general commerce. Seeking to apply my expertise in sales to achieve targets and build successful business partnerships."
+          >
+            تاجر ومندوب مبيعات محترف يتمتع بخبرة عملية واسعة في إدارة المحلات
+            التجارية والتجارة العامة. أسعى لتطبيق خبراتي في مجال المبيعات لتحقيق
+            الأهداف وبناء شراكات تجارية ناجحة.
+          </p>
+          <div class="hero-buttons">
+            <a
+              href="#contact"
+              class="btn btn-primary"
+              data-ar="تواصل معي"
+              data-en="Contact Me"
+              >تواصل معي</a
+            >
+            <a
+              href="#certificates"
+              class="btn btn-secondary"
+              data-ar="شهاداتي"
+              data-en="My Certificates"
+              >شهاداتي</a
+            >
+            <a
+              href="assets/cv.pdf"
+              class="btn btn-secondary"
+              download
+              data-ar="تحميل السيرة الذاتية"
+              data-en="Download CV"
+              >تحميل السيرة الذاتية</a
+            >
+          </div>
         </div>
+        <div class="hero-image">
+          <div class="profile-photo">
+            <img
+              src="assets/image.png"
+              alt="إبراهيم الهرش - مندوب مبيعات"
+              data-ar="إبراهيم الهرش - مندوب مبيعات"
+              data-en="Ibrahim Al-Harish - Sales Representative"
+            />
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- About Section -->
     <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">عنّي</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <h3>ملخص مهني</h3>
-                    <p>
-                        مدرب ومدرس مخضرم يتمتع بخبرة واسعة في تطوير الأفراد والعمل ضمن فرق متنوعة. 
-                        أمتلك أساساً قوياً في مبادئ إدارة الموارد البشرية الحديثة من خلال سلسلة من 
-                        البرامج التدريبية المتخصصة والتي شملت إدارة الأداء، والتقييم القائم على الكفاءة، 
-                        والتعيين والاختيار، والتطوير الوظيفي.
-                    </p>
-                    <div class="personal-info">
-                        <div class="info-item">
-                            <strong>البريد الإلكتروني:</strong>
-                            <span>Ibrahim_Al-Hersh@proton.me</span>
-                        </div>
-                        <div class="info-item">
-                            <strong>الهاتف:</strong>
-                            <span>+967 771064541</span>
-                        </div>
-                        <div class="info-item">
-                            <strong>المكان:</strong>
-                            <span>اليمن - صنعاء</span>
-                        </div>
-                        <div class="info-item">
-                            <strong>الحالة الاجتماعية:</strong>
-                            <span>متزوج</span>
-                        </div>
-                        <div class="info-item">
-                            <strong>التاريخ الميلاد:</strong>
-                            <span>١٩٨٧</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="about-stats">
-                    <div class="stat-card">
-                        <div class="stat-number">8+</div>
-                        <div class="stat-text">سنوات خبرة</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number">20+</div>
-                        <div class="stat-text">دورة تدريبية</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number">500+</div>
-                        <div class="stat-text">طالب تم تدريبهم</div>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="section-title" data-ar="عنّي" data-en="About Me">عنّي</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <h3 data-ar="ملخص مهني" data-en="Professional Summary">
+              ملخص مهني
+            </h3>
+            <p
+              data-ar="تاجر ومندوب مبيعات محترف يتمتع بخبرة عملية واسعة في إدارة المحلات التجارية والتجارة العامة. أمتلك سجلاً حافلاً في بناء علاقات قوية مع العملاء وزيادة المبيعات وتحسين الوضع المالي. من خلال عملي في متجر العائلة وتجاربي في مجال التدريس، طورت مهارات اتصال استثنائية وقدرة على التفاوض والإقناع."
+              data-en="Professional trader and sales representative with extensive practical experience in shop management and general commerce. Possess a proven track record in building strong customer relationships, increasing sales, and improving financial status. Through my work in family retail and teaching experiences, I have developed exceptional communication skills and ability in negotiation and persuasion."
+            >
+              تاجر ومندوب مبيعات محترف يتمتع بخبرة عملية واسعة في إدارة المحلات
+              التجارية والتجارة العامة. أمتلك سجلاً حافلاً في بناء علاقات قوية
+              مع العملاء وزيادة المبيعات وتحسين الوضع المالي. من خلال عملي في
+              متجر العائلة وتجاربي في مجال التدريس، طورت مهارات اتصال استثنائية
+              وقدرة على التفاوض والإقناع.
+            </p>
+            <div class="personal-info">
+              <div class="info-item">
+                <strong data-ar="البريد الإلكتروني:" data-en="Email:"
+                  >البريد الإلكتروني:</strong
+                >
+                <span>Ibrahim_AlHersh@proton.me</span>
+              </div>
+              <div class="info-item">
+                <strong data-ar="الهاتف:" data-en="Phone:">الهاتف:</strong>
+                <span>+967 771064541</span>
+              </div>
+              <div class="info-item">
+                <strong data-ar="المكان:" data-en="Location:">المكان:</strong>
+                <span data-ar="اليمن - صنعاء" data-en="Yemen - Sana'a"
+                  >اليمن - صنعاء</span
+                >
+              </div>
+              <div class="info-item">
+                <strong data-ar="الحالة الاجتماعية:" data-en="Marital Status:"
+                  >الحالة الاجتماعية:</strong
+                >
+                <span data-ar="متزوج" data-en="Married">متزوج</span>
+              </div>
+              <div class="info-item">
+                <strong data-ar="رخصة القيادة:" data-en="Driver's License:"
+                  >رخصة القيادة:</strong
+                >
+                <span data-ar="متوفر" data-en="Available">متوفر</span>
+              </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience" class="experience">
-        <div class="container">
-            <h2 class="section-title">الخبرات العملية</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-date">2020 - الحاضر</div>
-                    <div class="timeline-content">
-                        <h3>مدرب ومدرس لغة إنجليزية</h3>
-                        <span class="company">معاهد ومدارس متنوعة</span>
-                        <p>قيادة وتدريس الفصول الدراسية المتنوعة، تطوير وتنفيذ خطط الدروس، 
-                           إدارة التفاعلات مع الطلاب وأولياء الأمور، الإشراف على الأنشطة الصيفية 
-                           وبرامج الدروس التقوية.</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-date">2018 - 2020</div>
-                    <div class="timeline-content">
-                        <h3>أستاذ لغة الإنجليزية</h3>
-                        <span class="company">مدرسة السعيد بأدم</span>
-                        <p>تدريس اللغة الإنجليزية لمستويات مختلفة، تطوير المناهج التعليمية، 
-                           المشاركة في الأنشطة المدرسية والتربوية، الإشراف على البرامج التعليمية.</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-date">2016 - 2018</div>
-                    <div class="timeline-content">
-                        <h3>أستاذ لغة الإنجليزية</h3>
-                        <span class="company">مدرسة الشهيد السواري</span>
-                        <p>تدريس الطلاب في المراحل الثانوية، إعداد الخطط الدراسية، 
-                           تقييم أداء الطلاب وتطوير استراتيجيات التعلم، المشاركة في تطوير المناهج.</p>
-                    </div>
-                </div>
+          </div>
+          <div class="about-stats">
+            <div class="stat-card">
+              <div class="stat-number">12+</div>
+              <div
+                class="stat-text"
+                data-ar="سنوات في التجارة"
+                data-en="Years in Commerce"
+              >
+                سنوات في التجارة
+              </div>
             </div>
+            <div class="stat-card">
+              <div class="stat-number">20+</div>
+              <div
+                class="stat-text"
+                data-ar="دورة تدريبية"
+                data-en="Training Courses"
+              >
+                دورة تدريبية
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">500+</div>
+              <div
+                class="stat-text"
+                data-ar="عميل راضٍ"
+                data-en="Satisfied Customers"
+              >
+                عميل راضٍ
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
-
+    <!-- <hr class="bg-danger"> -->
+    <div class="container">
+      <section id="experience" class="experience">
+        <div class="container">
+          <h2
+            class="section-title"
+            data-ar="الخبرات العملية"
+            data-en="Work Experience"
+          >
+            الخبرات العملية
+          </h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div
+                class="timeline-date"
+                data-ar="2020 - الحاضر"
+                data-en="2020 - Present"
+              >
+                2020 - الحاضر
+              </div>
+              <div class="timeline-content">
+                <h3
+                  data-ar="مدرب ومدرس لغة إنجليزية"
+                  data-en="English Trainer & Teacher"
+                >
+                  مدرب ومدرس لغة إنجليزية
+                </h3>
+                <span
+                  class="company"
+                  data-ar="معاهد ومدارس متنوعة"
+                  data-en="Various Institutes & Schools"
+                  >معاهد ومدارس متنوعة</span
+                >
+                <p
+                  data-ar="قيادة وتدريس الفصول الدراسية المتنوعة، تطوير وتنفيذ خطط الدروس، إدارة التفاعلات مع الطلاب وأولياء الأمور، الإشراف على الأنشطة الصيفية وبرامج الدروس التقوية."
+                  data-en="Led and taught diverse classrooms, developed and implemented lesson plans, managed interactions with students and parents, supervised summer activities and tutoring programs."
+                >
+                  قيادة وتدريس الفصول الدراسية المتنوعة، تطوير وتنفيذ خطط
+                  الدروس، إدارة التفاعلات مع الطلاب وأولياء الأمور، الإشراف على
+                  الأنشطة الصيفية وبرامج الدروس التقوية.
+                </p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-date">2018 - 2020</div>
+              <div class="timeline-content">
+                <h3 data-ar="أستاذ لغة الإنجليزية" data-en="English Teacher">
+                  أستاذ لغة الإنجليزية
+                </h3>
+                <span
+                  class="company"
+                  data-ar="مدرسة السعيد بأدم"
+                  data-en="Al-Saeed School in Adam"
+                  >مدرسة السعيد بأدم</span
+                >
+                <p
+                  data-ar="تدريس اللغة الإنجليزية لمستويات مختلفة، تطوير المناهج التعليمية، المشاركة في الأنشطة المدرسية والتربوية، الإشراف على البرامج التعليمية."
+                  data-en="Taught English at various levels, developed educational curricula, participated in school and educational activities, supervised educational programs."
+                >
+                  تدريس اللغة الإنجليزية لمستويات مختلفة، تطوير المناهج
+                  التعليمية، المشاركة في الأنشطة المدرسية والتربوية، الإشراف على
+                  البرامج التعليمية.
+                </p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-date">2016 - 2018</div>
+              <div class="timeline-content">
+                <h3 data-ar="أستاذ لغة الإنجليزية" data-en="English Teacher">
+                  أستاذ لغة الإنجليزية
+                </h3>
+                <span
+                  class="company"
+                  data-ar="مدرسة الشهيد السواري"
+                  data-en="Al-Shaheed Al-Sawari School"
+                  >مدرسة الشهيد السواري</span
+                >
+                <p
+                  data-ar="تدريس الطلاب في المراحل الثانوية، إعداد الخطط الدراسية، تقييم أداء الطلاب وتطوير استراتيجيات التعلم، المشاركة في تطوير المناهج."
+                  data-en="Taught secondary school students, prepared study plans, evaluated student performance and developed learning strategies, participated in curriculum development."
+                >
+                  تدريس الطلاب في المراحل الثانوية، إعداد الخطط الدراسية، تقييم
+                  أداء الطلاب وتطوير استراتيجيات التعلم، المشاركة في تطوير
+                  المناهج.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
     <!-- Certificates Section -->
     <section id="certificates" class="certificates">
-        <div class="container">
-            <h2 class="section-title">الشهادات والدورات</h2>
-            <div class="certificates-grid">
-                <div class="cert-category">
-                    <h3><i class="fas fa-chart-line"></i> التطوير التنظيمي وإدارة الأداء</h3>
-                    <div class="cert-list">
-                        <div class="cert-item">
-                            <span class="cert-name">إدارة الأداء</span>
-                            <span class="cert-date">17 أغسطس 2023</span>
-                        </div>
-                        <div class="cert-item">
-                            <span class="cert-name">بطاقة الأداء المتوازن</span>
-                            <span class="cert-date">19 أغسطس 2023</span>
-                        </div>
-                        <div class="cert-item">
-                            <span class="cert-name">تحديد أهداف فعالة</span>
-                            <span class="cert-date">18 أغسطس 2023</span>
-                        </div>
-                        <div class="cert-item">
-                            <span class="cert-name">خطة التعاقب الوظيفي</span>
-                            <span class="cert-date">10 أغسطس 2023</span>
-                        </div>
-                        <div class="cert-item">
-                            <span class="cert-name">كتابة خطة العمل</span>
-                            <span class="cert-date">17 أغسطس 2023</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cert-category">
-                    <h3><i class="fas fa-users"></i> التوظيف والاختيار والتقييم</h3>
-                    <div class="cert-list">
-                        <div class="cert-item">
-                            <span class="cert-name">التقييم والمقابلة القائمة على الكفاءة</span>
-                            <span class="cert-date">22 أغسطس 2023</span>
-                        </div>
-                        <div class="cert-item">
-                            <span class="cert-name">مهارات التعيين والاختيار</span>
-                            <span class="cert-date">18 أغسطس 2023</span>
-                        </div>
-                        <div class="cert-item">
-                            <span class="cert-name">مقدمة في إدارة الموارد البشرية</span>
-                            <span class="cert-date">17 أغسطس 2023</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cert-category">
-                    <h3><i class="fas fa-brain"></i> المهارات الشخصية والقيادية</h3>
-                    <div class="cert-list">
-                        <div class="cert-item">
-                            <span class="cert-name">أساليب التفكير الإبداعي والابتكار</span>
-                            <span class="cert-date">21 أغسطس 2023</span>
-                        </div>
-                        <div class="cert-item">
-                            <span class="cert-name">مهارات الإبداع والابتكار</span>
-                            <span class="cert-date">17 أغسطس 2023</span>
-                        </div>
-                        <div class="cert-item">
-                            <span class="cert-name">حل المشكلات واتخاذ القرارات</span>
-                            <span class="cert-date">18 أغسطس 2023</span>
-                        </div>
-                        <div class="cert-item">
-                            <span class="cert-name">كيفية إدارة وتقليل التوتر</span>
-                            <span class="cert-date">10 أغسطس 2023</span>
-                        </div>
-                        <div class="cert-item">
-                            <span class="cert-name">كيف تثق بنفسك لتحقيق النتائج</span>
-                            <span class="cert-date">17 أغسطس 2023</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cert-category">
-                    <h3><i class="fas fa-cogs"></i> مهارات إدارية متقدمة</h3>
-                    <div class="cert-list">
-                        <div class="cert-item">
-                            <span class="cert-name">محاسبة التكاليف</span>
-                            <span class="cert-date">21 أغسطس 2023</span>
-                        </div>
-                        <div class="cert-item">
-                            <span class="cert-name">مهارات التطور الوظيفي</span>
-                            <span class="cert-date">21 أغسطس 2023</span>
-                        </div>
-                        <div class="cert-item">
-                            <span class="cert-name">الصحة العامة</span>
-                            <span class="cert-date">18 أغسطس 2023</span>
-                        </div>
-                        <div class="cert-item">
-                            <span class="cert-name">إدارة الاجتماعات</span>
-                            <span class="cert-date">22 أغسطس 2023</span>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <h2
+          class="section-title"
+          data-ar="الشهادات والدورات"
+          data-en="Certificates & Courses"
+        >
+          الشهادات والدورات
+        </h2>
+        <div class="certificates-grid">
+          <div class="cert-category">
+            <h3
+              data-ar="التطوير التنظيمي وإدارة الأداء"
+              data-en="Organizational Development & Performance Management"
+            >
+              <i class="fas fa-chart-line"></i> التطوير التنظيمي وإدارة الأداء
+            </h3>
+            <div class="cert-list">
+              <div class="cert-item">
+                <span
+                  class="cert-name"
+                  data-ar="إدارة الأداء"
+                  data-en="Performance Management"
+                  >إدارة الأداء</span
+                >
+                <span class="cert-date">17 أغسطس 2023</span>
+              </div>
+              <div class="cert-item">
+                <span
+                  class="cert-name"
+                  data-ar="بطاقة الأداء المتوازن"
+                  data-en="Balanced Scorecard"
+                  >بطاقة الأداء المتوازن</span
+                >
+                <span class="cert-date">19 أغسطس 2023</span>
+              </div>
+              <div class="cert-item">
+                <span
+                  class="cert-name"
+                  data-ar="تحديد أهداف فعالة"
+                  data-en="Setting Effective Goals"
+                  >تحديد أهداف فعالة</span
+                >
+                <span class="cert-date">18 أغسطس 2023</span>
+              </div>
+              <div class="cert-item">
+                <span
+                  class="cert-name"
+                  data-ar="خطة التعاقب الوظيفي"
+                  data-en="Succession Planning"
+                  >خطة التعاقب الوظيفي</span
+                >
+                <span class="cert-date">10 أغسطس 2023</span>
+              </div>
+              <div class="cert-item">
+                <span
+                  class="cert-name"
+                  data-ar="كتابة خطة العمل"
+                  data-en="Writing Business Plan"
+                  >كتابة خطة العمل</span
+                >
+                <span class="cert-date">17 أغسطس 2023</span>
+              </div>
             </div>
+          </div>
+
+          <div class="cert-category">
+            <h3
+              data-ar="التوظيف والاختيار والتقييم"
+              data-en="Recruitment & Selection"
+            >
+              <i class="fas fa-users"></i> التوظيف والاختيار والتقييم
+            </h3>
+            <div class="cert-list">
+              <div class="cert-item">
+                <span
+                  class="cert-name"
+                  data-ar="التقييم والمقابلة القائمة على الكفاءة"
+                  data-en="Competency-Based Assessment & Interview"
+                  >التقييم والمقابلة القائمة على الكفاءة</span
+                >
+                <span class="cert-date">22 أغسطس 2023</span>
+              </div>
+              <div class="cert-item">
+                <span
+                  class="cert-name"
+                  data-ar="مهارات التعيين والاختيار"
+                  data-en="Recruitment & Selection Skills"
+                  >مهارات التعيين والاختيار</span
+                >
+                <span class="cert-date">18 أغسطس 2023</span>
+              </div>
+              <div class="cert-item">
+                <span
+                  class="cert-name"
+                  data-ar="مقدمة في إدارة الموارد البشرية"
+                  data-en="Introduction to HR Management"
+                  >مقدمة في إدارة الموارد البشرية</span
+                >
+                <span class="cert-date">17 أغسطس 2023</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="cert-category">
+            <h3
+              data-ar="المهارات الشخصية والقيادية"
+              data-en="Personal & Leadership Skills"
+            >
+              <i class="fas fa-brain"></i> المهارات الشخصية والقيادية
+            </h3>
+            <div class="cert-list">
+              <div class="cert-item">
+                <span
+                  class="cert-name"
+                  data-ar="أساليب التفكير الإبداعي والابتكار"
+                  data-en="Creative Thinking & Innovation Methods"
+                  >أساليب التفكير الإبداعي والابتكار</span
+                >
+                <span class="cert-date">21 أغسطس 2023</span>
+              </div>
+              <div class="cert-item">
+                <span
+                  class="cert-name"
+                  data-ar="مهارات الإبداع والابتكار"
+                  data-en="Creativity & Innovation Skills"
+                  >مهارات الإبداع والابتكار</span
+                >
+                <span class="cert-date">17 أغسطس 2023</span>
+              </div>
+              <div class="cert-item">
+                <span
+                  class="cert-name"
+                  data-ar="حل المشكلات واتخاذ القرارات"
+                  data-en="Problem Solving & Decision Making"
+                  >حل المشكلات واتخاذ القرارات</span
+                >
+                <span class="cert-date">18 أغسطس 2023</span>
+              </div>
+              <div class="cert-item">
+                <span
+                  class="cert-name"
+                  data-ar="كيفية إدارة وتقليل التوتر"
+                  data-en="Stress Management & Reduction"
+                  >كيفية إدارة وتقليل التوتر</span
+                >
+                <span class="cert-date">10 أغسطس 2023</span>
+              </div>
+              <div class="cert-item">
+                <span
+                  class="cert-name"
+                  data-ar="كيف تثق بنفسك لتحقيق النتائج"
+                  data-en="Self-Confidence for Achieving Results"
+                  >كيف تثق بنفسك لتحقيق النتائج</span
+                >
+                <span class="cert-date">17 أغسطس 2023</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="cert-category">
+            <h3
+              data-ar="مهارات إدارية متقدمة"
+              data-en="Advanced Administrative Skills"
+            >
+              <i class="fas fa-cogs"></i> مهارات إدارية متقدمة
+            </h3>
+            <div class="cert-list">
+              <div class="cert-item">
+                <span
+                  class="cert-name"
+                  data-ar="محاسبة التكاليف"
+                  data-en="Cost Accounting"
+                  >محاسبة التكاليف</span
+                >
+                <span class="cert-date">21 أغسطس 2023</span>
+              </div>
+              <div class="cert-item">
+                <span
+                  class="cert-name"
+                  data-ar="مهارات التطور الوظيفي"
+                  data-en="Career Development Skills"
+                  >مهارات التطور الوظيفي</span
+                >
+                <span class="cert-date">21 أغسطس 2023</span>
+              </div>
+              <div class="cert-item">
+                <span
+                  class="cert-name"
+                  data-ar="الصحة العامة"
+                  data-en="Public Health"
+                  >الصحة العامة</span
+                >
+                <span class="cert-date">18 أغسطس 2023</span>
+              </div>
+              <div class="cert-item">
+                <span
+                  class="cert-name"
+                  data-ar="إدارة الاجتماعات"
+                  data-en="Meeting Management"
+                  >إدارة الاجتماعات</span
+                >
+                <span class="cert-date">22 أغسطس 2023</span>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Skills Section -->
     <section id="skills" class="skills">
-        <div class="container">
-            <h2 class="section-title">المهارات</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3><i class="fas fa-user-friends"></i> المهارات الشخصية</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">العمل ضمن فريق</span>
-                        <span class="skill-tag">القيادة والتوجيه</span>
-                        <span class="skill-tag">بناء العلاقات</span>
-                        <span class="skill-tag">التسويق والإقناع</span>
-                        <span class="skill-tag">التواصل الفعال</span>
-                        <span class="skill-tag">التدريب والإرشاد</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3><i class="fas fa-tasks"></i> المهارات الإدارية</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">التخطيط الاستراتيجي</span>
-                        <span class="skill-tag">وضع الأهداف</span>
-                        <span class="skill-tag">حل المشكلات</span>
-                        <span class="skill-tag">اتخاذ القرارات</span>
-                        <span class="skill-tag">إدارة الأداء</span>
-                        <span class="skill-tag">إدارة الوقت</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3><i class="fas fa-language"></i> اللغات</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">العربية (لغة أم)</span>
-                        <span class="skill-tag">الإنجليزية (متقدم - قراءة وكتابة ومحادثة)</span>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="section-title" data-ar="المهارات" data-en="Skills">
+          المهارات
+        </h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3 data-ar="المهارات الشخصية" data-en="Personal Skills">
+              <i class="fas fa-user-friends"></i> المهارات الشخصية
+            </h3>
+            <div class="skill-tags">
+              <span
+                class="skill-tag"
+                data-ar="العمل ضمن فريق"
+                data-en="Teamwork"
+                >العمل ضمن فريق</span
+              >
+              <span
+                class="skill-tag"
+                data-ar="القيادة والتوجيه"
+                data-en="Leadership & Guidance"
+                >القيادة والتوجيه</span
+              >
+              <span
+                class="skill-tag"
+                data-ar="بناء العلاقات"
+                data-en="Relationship Building"
+                >بناء العلاقات</span
+              >
+              <span
+                class="skill-tag"
+                data-ar="التسويق والإقناع"
+                data-en="Marketing & Persuasion"
+                >التسويق والإقناع</span
+              >
+              <span
+                class="skill-tag"
+                data-ar="التواصل الفعال"
+                data-en="Effective Communication"
+                >التواصل الفعال</span
+              >
+              <span
+                class="skill-tag"
+                data-ar="التدريب والإرشاد"
+                data-en="Training & Mentoring"
+                >التدريب والإرشاد</span
+              >
             </div>
+          </div>
+          <div class="skill-category">
+            <h3 data-ar="المهارات الإدارية" data-en="Managerial Skills">
+              <i class="fas fa-tasks"></i> المهارات الإدارية
+            </h3>
+            <div class="skill-tags">
+              <span
+                class="skill-tag"
+                data-ar="التخطيط الاستراتيجي"
+                data-en="Strategic Planning"
+                >التخطيط الاستراتيجي</span
+              >
+              <span
+                class="skill-tag"
+                data-ar="وضع الأهداف"
+                data-en="Goal Setting"
+                >وضع الأهداف</span
+              >
+              <span
+                class="skill-tag"
+                data-ar="حل المشكلات"
+                data-en="Problem Solving"
+                >حل المشكلات</span
+              >
+              <span
+                class="skill-tag"
+                data-ar="اتخاذ القرارات"
+                data-en="Decision Making"
+                >اتخاذ القرارات</span
+              >
+              <span
+                class="skill-tag"
+                data-ar="إدارة الأداء"
+                data-en="Performance Management"
+                >إدارة الأداء</span
+              >
+              <span
+                class="skill-tag"
+                data-ar="إدارة الوقت"
+                data-en="Time Management"
+                >إدارة الوقت</span
+              >
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3 data-ar="اللغات" data-en="Languages">
+              <i class="fas fa-language"></i> اللغات
+            </h3>
+            <div class="skill-tags">
+              <span
+                class="skill-tag"
+                data-ar="العربية (لغة أم)"
+                data-en="Arabic (Native)"
+                >العربية (لغة أم)</span
+              >
+              <span
+                class="skill-tag"
+                data-ar="الإنجليزية (متقدم - قراءة وكتابة ومحادثة)"
+                data-en="English (Advanced - Reading, Writing, Speaking)"
+                >الإنجليزية (متقدم - قراءة وكتابة ومحادثة)</span
+              >
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Education Section -->
     <section id="education" class="education">
-        <div class="container">
-            <h2 class="section-title">المؤهلات العلمية</h2>
-            <div class="education-content">
-                <div class="education-item">
-                    <div class="edu-icon">
-                        <i class="fas fa-graduation-cap"></i>
-                    </div>
-                    <div class="edu-details">
-                        <h3>بكالوريوس في التربية - تخصص جغرافيا</h3>
-                        <span class="edu-institution">جامعة صنعاء - كلية التربية والآداب خولان</span>
-                        <span class="edu-date">تقدير عام: جيد</span>
-                    </div>
-                </div>
+      <div class="container">
+        <h2
+          class="section-title"
+          data-ar="المؤهلات العلمية"
+          data-en="Education"
+        >
+          المؤهلات العلمية
+        </h2>
+        <div class="education-content">
+          <div class="education-item">
+            <div class="edu-icon">
+              <i class="fas fa-graduation-cap"></i>
             </div>
+            <div class="edu-details">
+              <h3
+                data-ar="بكالوريوس في التربية - الغة الإنجليزية"
+                data-en="Bachelor of Education - English Language"
+              >
+                بكالوريوس في التربية - الغة الإنجليزية
+              </h3>
+              <span
+                class="edu-institution"
+                data-ar="جامعة صنعاء - كلية التربية والآداب خولان"
+                data-en="Sana'a University - Faculty of Education & Arts Khawlan"
+                >جامعة صنعاء - كلية التربية والآداب خولان</span
+              >
+              <span
+                class="edu-date"
+                data-ar="تقدير عام: جيد"
+                data-en="Grade: Good"
+                >تقدير عام: جيد</span
+              >
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">تواصل معي</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <div>
-                            <h3>الهاتف</h3>
-                            <p>+967 771064541</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <h3>البريد الإلكتروني</h3>
-                            <p>Ibrahim_Al-Hersh@proton.me</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
-                            <h3>المكان</h3>
-                            <p>اليمن - صنعاء</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-globe"></i>
-                        <div>
-                            <h3>الموقع الإلكتروني</h3>
-                            <p>www.ibrahim-alharish.com</p>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="section-title" data-ar="تواصل معي" data-en="Contact Me">
+          تواصل معي
+        </h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h3 data-ar="الهاتف" data-en="Phone">الهاتف</h3>
+                <p>+967 771064541</p>
+              </div>
             </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h3 data-ar="البريد الإلكتروني" data-en="Email">
+                  البريد الإلكتروني
+                </h3>
+                <p>Ibrahim_Al-Hersh@proton.me</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h3 data-ar="المكان" data-en="Location">المكان</h3>
+                <p data-ar="اليمن - صنعاء" data-en="Yemen - Sana'a">
+                  اليمن - صنعاء
+                </p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-globe"></i>
+              <div>
+                <h3 data-ar="الموقع الإلكتروني" data-en="Website">
+                  الموقع الإلكتروني
+                </h3>
+                <p>https://ibrahim-alharish-portfolio-dl1s.vercel.app/</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-car"></i>
+              <div>
+                <h3 data-ar="رخصة القيادة" data-en="Driver's License">
+                  رخصة القيادة
+                </h3>
+                <p data-ar="متوفر" data-en="Available">متوفر</p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <div class="container">
-            <p>&copy; 2024 إبراهيم الهرش. جميع الحقوق محفوظة.</p>
-        </div>
+      <div class="container">
+        <p
+          data-ar="&copy; 2024 إبراهيم الهرش. جميع الحقوق محفوظة."
+          data-en="&copy; 2024 Ibrahim Al-Harish. All rights reserved."
+        >
+          &copy; 2024 إبراهيم الهرش. جميع الحقوق محفوظة.
+        </p>
+      </div>
     </footer>
-
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
